@@ -120,7 +120,8 @@ a{
   display: flex;
   align-items: center;
   padding-top: 48px;
-  padding-bottom: 142px;
+  padding-bottom: 48px;
+  margin-bottom: 30px;
 }
 .site-header__logo {
   display: inline-block;
@@ -167,12 +168,45 @@ a{
 .site-header__link {
   margin-left: auto;
   font-weight: 700;
-
 }
+
 .site-header__button {
   margin-left: 37px;
   padding: 9px 24px;
 }
+
+/* HERO */
+
+.hero {
+  background-image: url("../images/hero-image.png");
+  background-repeat: no-repeat;
+  background-position-x: right -122px;
+}
+
+.hero__content{
+  max-width: 563px;
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 67px;
+
+}
+
+.hero__heading {
+  font-size: 79px;
+  line-height: 90px;
+  letter-spacing: -2px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: var(--dark-black);
+}
+
+.hero__text {
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 38px;
+}
+
 
 
 /* BACKGROUND-IMAGE FOR RETINA SCREENS */
@@ -183,5 +217,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-
+  .hero {
+    background-image: url("../images/hero-image@2x.png");
+  }
 }
