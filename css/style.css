@@ -96,6 +96,9 @@ a{
   font-weight: 700;
   padding: 14px 40px 12px;
   border-radius: 28px;
+  border: 0;
+  font-size: 20px;
+  line-height: 30px;
   color: #fff;
   background-color: var(--light-blue);
   transition: background-color 0.4s ease;
@@ -173,6 +176,8 @@ a{
 .site-header__button {
   margin-left: 37px;
   padding: 9px 24px;
+  font-size: 15px;
+  line-height: 22px;
 }
 
 /* HERO */
@@ -180,7 +185,7 @@ a{
 .hero {
   background-image: url("../images/hero-image.png");
   background-repeat: no-repeat;
-  background-position-x: right -122px;
+  background-position: left calc(563px + 50%) top;
 }
 
 .hero__content{
@@ -188,7 +193,7 @@ a{
   width: 100%;
   padding-top: 64px;
   padding-bottom: 67px;
-
+  margin-bottom: 68px;
 }
 
 .hero__heading {
@@ -208,6 +213,32 @@ a{
 }
 
 
+/* SHORTEN */
+
+.shorten__inner {
+  padding: 52px 62px;
+  border-radius: 10px;
+  background-image: url("../images/filtr_bg_image.png");
+  margin-bottom: 120px;
+}
+
+.shorten__input {
+  display: inline-block;
+  max-width: 769px;
+  width: 100%;
+  padding: 14px 32px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+}
+.shorten__button {
+  margin-left: 24px;
+  padding: 18px 40px 16px;
+  border-radius: 10px;
+}
+
 
 /* BACKGROUND-IMAGE FOR RETINA SCREENS */
 @media
@@ -218,6 +249,10 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
   .hero {
-    background-image: url("../images/hero-image@2x.png");
+    background-image: url("../images/hero-image.png");
+  }
+
+.shorten__inner {
+    background-image: url("../images/filtr_bg_image.png");
   }
 }
