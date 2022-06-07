@@ -335,6 +335,31 @@ a{
 }
 
 
+/* CTA */
+
+.cta {
+  background-image: url("../images/cta_bg_image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta__inner {
+  text-align: center;
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+.cta__heading {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #fff;
+}
+
+
 /* BACKGROUND-IMAGE FOR RETINA SCREENS */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
