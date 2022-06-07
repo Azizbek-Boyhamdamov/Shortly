@@ -515,7 +515,7 @@ a{
 
 /* RESPONSIVE */
 
-@media (min-width : 736px) {
+@media (max-width : 736px) {
 
   /* site-header */
 
