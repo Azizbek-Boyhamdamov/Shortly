@@ -612,7 +612,7 @@ a{
     flex-direction: column;
     background-image: url('../images/strike_vertical.svg');
     background-repeat: no-repeat;
-    background-position-x: left calc(50% - 8px)
+    background-position-x: left calc(50% - 8px);
   }
 
   .feature__item:not(:last-child){
