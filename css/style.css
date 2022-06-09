@@ -148,7 +148,6 @@ a{
   display: block;
   width: 120px;
   height: 32px;
-  object-fit: contain;
 }
 
 /* SITENAV */
@@ -276,21 +275,20 @@ a{
 /* HERO */
 
 .hero {
+  padding-top: 92px;
+  padding-bottom: 222px;
   background-image: url("../images/hero-image.png");
   background-repeat: no-repeat;
-  background-position: left calc(50% + 475px) top;
+  background-position: left calc(50% + 475px) top 30px;
 }
 
 .hero__content{
-  max-width: 563px;
+  max-width: 565px;
   width: 100%;
-  padding-top: 64px;
-  padding-bottom: 67px;
-  margin-bottom: 68px;
 }
 
 .hero__heading {
-  font-size: 79px;
+  font-size: 80px;
   line-height: 90px;
   letter-spacing: -2px;
   margin-top: 0;
@@ -301,6 +299,8 @@ a{
 .hero__text {
   font-weight: 500;
   font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
   margin-top: 0;
   margin-bottom: 38px;
 }
