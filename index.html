@@ -68,16 +68,28 @@
   </section>
 
   <!-- SHORTEN -->
-  <form  class="shorten" action="https://echo.htmlacademy.ru" method="get">
-    <div class="shorten__container container">
-      <div class="shorten__inner">
-        <input class="shorten__input" type="text" name="input-link" id="" placeholder="Shorten a link here...">
-      <button  class="shorten__button button" type="submit">Shorten It!</button>
-    </div>
-    </div>
-  </form>
+  <div class="index-url-shortener-features-wrapper">
+    <div class="index-url-shortener-features-wrapper__url-shortener">
+      <!-- URL-SHORTENER-FORM -->
+      <div class="url-shortener">
+        <div class="container">
+            <h2 class="visually-hidden">URL Shortener</h2>
+          <form  class="url-shortener__form" action="https://echo.htmlacademy.ru" method="post">
+              <div class="url-shortener__input-wrapper">
+                <input class="url-shortener__input" type="url" name="URL" required aria-label="URL input" placeholder="Shorten a link here...">
+                <div class="url-shortener__erorr-message">Please add a link</div>
+              </div>
+              <button  class="shorten__button button" type="submit">Shorten It!</button>
+          </form>
+        </div>
+      </div>
 
-  <!-- FEATURES -->
+    </div>
+    <!-- URL-SHORTENER-FORM -->
+
+
+
+      <!-- FEATURES -->
 
   <section class="features">
     <div class="features__container container">
@@ -119,6 +131,11 @@
       </div>
     </div>
   </section>
+
+  </div>
+
+
+
 
   <!-- CTA -->
 
