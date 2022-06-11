@@ -43,8 +43,10 @@ if(elUrlShortener){
   });
 }
 // Window event listener
+// if(window){
+//   document.addEventListener('click',function(){
+//     elUrlShortenerResults.classList.remove('url-shortener__results--open');
+//   });
 
-// window.addEventListener('click',function(){
-//   elUrlShortenerResults.classList.remove('url-shortener__results--open');
-// });
+// }
 
