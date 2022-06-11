@@ -465,10 +465,13 @@ select:-webkit-autofill:focus {
   min-width: 103px;
   font-size: 15px;
   line-height: 22px;
-  padding: 10px 31px 7px;
+  padding: 10px 21px 7px;
   border-radius: 5px;
 }
 
+.url-shortener__copy-btn--copied{
+  background-color:var(--dark-blue);
+}
 
 
 /* FEATURES */
