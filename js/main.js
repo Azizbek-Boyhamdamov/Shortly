@@ -12,6 +12,7 @@ elHeaderMenu.addEventListener('click',function(){
 });
 
 
+
 // Url Shortener event listener
 
 if (elUrlShortenerForm){
@@ -20,6 +21,7 @@ if (elUrlShortenerForm){
 
     elUrlShortenerResults.classList.add('url-shortener__results--open');
   });
+
 }
 
 if(elUrlShortener){
@@ -32,6 +34,10 @@ if(elUrlShortener){
 
       evt.target.classList.add('url-shortener__copy-btn--copied');
 
+      // Copy short lnk to clipboard
+
+      navigator.clipboard.writeText(evt.target.previousElementSibling.textContent);
+
       // Reset button text and class after 1 second
 
           setTimeout(()=>{
@@ -42,11 +48,12 @@ if(elUrlShortener){
     }
   });
 }
-// Window event listener
-// if(window){
-//   document.addEventListener('click',function(){
-//     elUrlShortenerResults.classList.remove('url-shortener__results--open');
-//   });
 
-// }
+
+
+
+
+
+
+
 
