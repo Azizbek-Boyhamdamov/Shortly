@@ -20,7 +20,7 @@
           <img class="logo__image" src="./images/Shortly-logo.svg" alt="logo-image" width="120" height="32">
         </a>
         <!-- SITENAV -->
-        <nav class="sitenav">
+        <nav class="site-header__sitenav sitenav">
           <ul class="sitenav__list">
             <li class="sitenav__item"><a class="sitenav__link" href="#">Features</a></li>
             <li class="sitenav__item"><a class="sitenav__link" href="#">Pricing</a></li>
@@ -33,7 +33,7 @@
         </div>
         <!-- MENU -->
         <a href="#" class="site-header__menu">
-          <svg class="menu__icon" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" fill="Currentcolor"/></svg>
+          <svg class="site-header__menu-icon" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" fill="Currentcolor"/></svg>
         </a>
         <div class="menu">
           <ul class="menu__list">
@@ -79,7 +79,7 @@
                 <input class="url-shortener__input" type="url" name="URL" required aria-label="URL input" placeholder="Shorten a link here...">
                 <div class="url-shortener__erorr-message">Please add a link</div>
               </div>
-              <button  class="shorten__button button" type="submit">Shorten It!</button>
+              <button  class="url-shortener__button button" type="submit">Shorten It!</button>
           </form>
 
           <div class="url-shortener__results">
@@ -112,25 +112,25 @@
         <p class="features__text">Track how your links are performing across the web with our advanced statistics dashboard.</p>
 
         <ul class="features__list">
-          <li class="feature__item features-content">
-            <div class="features__image-wrapper ">
-              <img class="features__image" src="./images/diagram.svg" alt="diagram" width="40" height="40">
+          <li class="features__item features-content">
+            <div class="features-content__icon-wrapper ">
+              <img class="features-content__icon" src="./images/diagram.svg" alt="diagram" width="40" height="40">
             </div>
               <h4 class="features-content__title">Brand Recognition</h4>
               <p class="features-content__desc">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
           </li>
 
-          <li class="feature__item features-content">
-            <div class="features__image-wrapper ">
-              <img class="features__image" src="./images/time.svg" alt="diagram" width="40" height="40">
+          <li class="features__item features-content">
+            <div class="features-content__icon-wrapper ">
+              <img class="features-content__icon" src="./images/time.svg" alt="diagram" width="40" height="40">
             </div>
               <h4 class="features-content__title">Detailed Records</h4>
               <p class="features-content__desc">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
           </li>
 
-          <li class="feature__item features-content">
-            <div class="features__image-wrapper ">
-              <img class="features__image" src="./images/Customize.svg" alt="diagram" width="48" height="48">
+          <li class="features__item features-content">
+            <div class="features-content__icon-wrapper ">
+              <img class="features-content__icon" src="./images/Customize.svg" alt="diagram" width="48" height="48">
             </div>
               <h4 class="features-content__title">Fully Customizable</h4>
               <p class="features-content__desc">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>

@@ -195,7 +195,7 @@ select:-webkit-autofill:focus {
 
 /* SITENAV */
 
-.sitenav{
+.site-header__sitenav{
   margin-right: auto;
 }
 
@@ -265,7 +265,7 @@ select:-webkit-autofill:focus {
   display: none;
 }
 
-.menu__icon{
+.site-header__menu-icon{
   display: block;
   width: 48px;
   height: 48px;
@@ -419,7 +419,7 @@ select:-webkit-autofill:focus {
   left: 0;
 }
 
-.shorten__button {
+.url-shortener__button {
   border-radius: 10px;
   padding: 18px 40px 16px;
 }
@@ -533,7 +533,6 @@ select:-webkit-autofill:focus {
 .feature__item {
   width: 350px;
   list-style: none;
-  background-color: #fff;
 }
 .features-content {
   position: relative;
@@ -552,7 +551,7 @@ select:-webkit-autofill:focus {
 .feature__item:last-child{
   margin-top: 88px;
 }
-.features__image-wrapper {
+.features-content__icon-wrapper{
   position: absolute;
   top: 0;
   left: 32px;
@@ -586,6 +585,7 @@ select:-webkit-autofill:focus {
   background-image: url("../images/cta_bg_image.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .cta__inner {
