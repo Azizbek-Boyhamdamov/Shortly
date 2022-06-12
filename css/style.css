@@ -659,6 +659,7 @@ select:-webkit-autofill:focus {
   margin-bottom: 10px;
 }
 .site-footer__menu-link{
+  text-transform: capitalize;
   color:#BFBFBF;
 }
 .site-footer__menu-link:hover{
